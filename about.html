@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Name | About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <strong>Company Name</strong>
+        <span>Real Estate Development</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>About</h1>
+      <p>
+        Add your dad’s story here: years in business, mission, the kinds of developments,
+        and what clients/partners can expect.
+      </p>
+    </section>
+
+    <h2 class="section-title">Values</h2>
+    <section class="grid">
+      <div class="card"><h3>Quality</h3><p>Details matter—from materials to execution.</p></div>
+      <div class="card"><h3>Integrity</h3><p>Transparent, dependable partnerships.</p></div>
+      <div class="card"><h3>Long-term</h3><p>Built for sustainability and durability.</p></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Company Name</div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
